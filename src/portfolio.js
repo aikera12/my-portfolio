@@ -20,15 +20,16 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Aigerim Dauletbaeva",
+  title: "Привет! Я Айгерим 👋",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Аналитик данных 📊 с опытом работы в государственных системах. Работаю с Python, SQL, Power BI и визуализацией данных. Увлекаюсь цифровизацией, BI-решениями и обучением."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Заменить на твою ссылку
+  displayGreeting: true
 };
+
 
 // Social Media Links
 
@@ -48,101 +49,81 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Что я умею",
+  subTitle: "Анализирую данные, визуализирую смыслы, автоматизирую отчёты",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Анализ данных с использованием Python, pandas, NumPy"),
+    emoji("⚡ Построение интерактивных отчётов и дашбордов в Power BI"),
+    emoji("⚡ Работа с базами данных и написание SQL-запросов в PostgreSQL"),
+    emoji("⚡ Визуализация и представление информации с помощью matplotlib и seaborn"),
+    emoji("⚡ Подготовка статистических отчётов, участие в цифровизации государственных ИС")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Power BI",
+    fontAwesomeClassname: "fas fa-chart-bar"
+  },
+  {
+    skillName: "Excel",
+    fontAwesomeClassname: "fas fa-file-excel" // используем Excel-иконку
+  },
+  {
+    skillName: "PostgreSQL",
+    fontAwesomeClassname: "fas fa-server"
+  },
+  {
+    skillName: "Pandas",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
+    skillName: "NumPy",
+    fontAwesomeClassname: "fas fa-square-root-alt"
+  },
+  {
+    skillName: "Matplotlib / Seaborn",
+    fontAwesomeClassname: "fas fa-chart-line"
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "React",
+    fontAwesomeClassname: "fab fa-react"
+  }
+],
+  display: true
 };
+
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, // Показывать раздел "Образование"
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Евразийский национальный университет им. Л.Н. Гумилёва",
+      logo: require("./assets/images/enuLogo.png"), 
+      subHeader: "Бакалавр математического и компьютерного моделирования",
+      duration: "Сентябрь 2020 – Июнь 2024",
+      desc: "Окончила с отличием. Специализация — математическое моделирование, анализ данных и программирование.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Прошла курсы по Python, SQL, анализу данных, машинному обучению и Power BI",
+        "Участвовала в исследовательских проектах и международной выставке StudExpo-2024"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,53 +131,61 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Показывать секцию с графиками навыков
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Аналитика данных (Power BI, Excel, визуализация)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Программирование на Python (Pandas, NumPy, Matplotlib)",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Работа с базами данных (SQL, PostgreSQL)",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Эксперт управления цифровизации",
+      company: "Бюро национальной статистики РК",
+      companylogo: require("./assets/images/bnsLogo.png"), // Убедись, что файл есть
+      date: "Февраль 2025 – настоящее время",
+      desc: "Участвую в цифровизации статистических процессов, сопровождаю ИИС «е-Статистика» и координирую работы по ней.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Контроль доступов, сопровождение и взаимодействие с IT-подрядчиками",
+        "Участие в проектах по модернизации аналитической инфраструктуры"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Ведущий специалист по информационной безопасности",
+      company: "Министерство юстиции РК",
+      companylogo: require("./assets/images/justiceLogo.png"), // Проверь путь и расширение
+      date: "Август 2024 – Февраль 2025",
+      desc: "Отвечала за обеспечение информационной безопасности и техническую поддержку пользователей.",
+      descBullets: [
+        "Управление правами доступа и мониторинг информационных систем",
+        "Обработка обращений граждан через портал «Е-Өтініш»"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Стажёр — аналитик данных",
+      company: "KazAeroSpace",
+      companylogo: require("./assets/images/kazAeroLogo.png"), // Замени на корректное имя или временно закомментируй
+      date: "Март 2023 – Апрель 2023",
+      desc: "Производственная практика: работа с геоданными, моделирование и участие в разработке программного обеспечения для автоматизации государственных услуг.",
+      descBullets: [
+        "Создание и анализ геоданных в ArcGIS",
+        "Разработка 2D/3D моделей и участие в проектировании ГИС"
+      ]
     }
   ]
 };
@@ -246,62 +235,118 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Достижения и сертификаты 🏆"),
+  subtitle: "Сертификаты, награды и проекты, подтверждающие мои знания и навыки",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Сертификат — BI Developer от Islam Derbissalin",
+      subtitle: "Завершён авторский курс по Power BI и визуализации данных",
+      image: require("./assets/images/powerbiLogo.png"), // замените или закомментируйте при необходимости
+      imageAlt: "BI Course",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Сертификат PDF",
+          url: "/certificates/islam-pbi.pdf" 
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Диплом 1 степени — StudEXPO 2024",
+      subtitle: "Проект по ИИ-моделированию водохранилища, занявший 1 место на международной выставке в Ош",
+      image: require("./assets/images/expoLogo.jpg"),
+      imageAlt: "StudEXPO Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Сертификат PDF",
+          url: "/certificates/studexpo-2024.pdf"
+        },
+        {
+          name: "GitHub проекта",
+          url: "https://github.com/aikera12/Diplom"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Stepik Python + Статистика",
+      subtitle: "Комплексные курсы Stepik по Python и статистике",
+      image: require("./assets/images/stepikLogo.jpg"),
+      imageAlt: "Stepik Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Python",
+          url: "/certificates/stepik-python.pdf"
+        },
+        {
+          name: "Статистика",
+          url: "/certificates/stepik-stat.pdf"
+        }
+      ]
+    },
+    {
+      title: "Intermediate Python — DataCamp",
+      subtitle: "Изучение основ программирования на Python",
+      image: require("./assets/images/datacampLogo.jpg"),
+      imageAlt: "DataCamp Logo",
+      footerLink: [
+        {
+          name: "Сертификат PDF",
+          url: "/certificates/intermediate-python.pdf"
+        }
+      ]
+    },
+    {
+      title: "Intermediate SQL — DataCamp",
+      subtitle: "Практическая работа с SQL-запросами и базами данных",
+      image: require("./assets/images/datacampLogo.jpg"),
+      imageAlt: "DataCamp Logo",
+      footerLink: [
+        {
+          name: "Сертификат PDF",
+          url: "/certificates/intermediate-sql.pdf"
+        }
+      ]
+    },
+    {
+      title: "Joining Data with pandas — DataCamp",
+      subtitle: "Работа с объединением таблиц в pandas",
+      image: require("./assets/images/datacampLogo.jpg"),
+      imageAlt: "DataCamp Logo",
+      footerLink: [
+        {
+          name: "Сертификат PDF",
+          url: "/certificates/join-data-pandas.pdf"
+        }
+      ]
+    },
+    {
+      title: "Визуализация данных — Seaborn",
+      subtitle: "Работа с библиотекой Seaborn для визуального анализа",
+      image: require("./assets/images/seabornLogo.png"),
+      imageAlt: "Seaborn Logo",
+      footerLink: [
+        {
+          name: "Сертификат PDF",
+          url: "/certificates/intro-visual-seaborn.pdf"
+        }
+      ]
+    },
+    {
+      title: "Intro to Statistics with Python — Stepik",
+      subtitle: "Введение в статистику на Python",
+      image: require("./assets/images/stepikLogo.jpg"),
+      imageAlt: "Stepik Logo",
+      footerLink: [
+        {
+          name: "Сертификат PDF",
+          url: "/certificates/intro-stat-python.pdf"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Blogs Section
 
@@ -324,7 +369,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +388,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +401,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,11 +414,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Связаться со мной ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Обсудим проект, сотрудничество или просто пообщаемся. Моя почта всегда открыта!",
+  number: "+7-705-435-22-85", // замени на свой номер, если хочешь показывать
+  email_address: "aikerakerakera@gmail.com"
 };
 
 // Twitter Section
